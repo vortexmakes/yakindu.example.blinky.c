@@ -5,7 +5,7 @@ GeneratorModel for yakindu::c::rkh {
 		feature Outlet {
 			targetProject = "blinky"
 			targetFolder = "src-gen"
-			libraryTargetFolder = "rkh"
+			libraryTargetFolder = "src"
 		}
 	}
 }
