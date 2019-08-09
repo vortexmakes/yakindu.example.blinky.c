@@ -8,10 +8,10 @@
       <vertices xsi:type="sgraph:State" xmi:id="_AX23hP_3Eeafl6WsllPgUg" specification="entry / init()" name="Initialization" incomingTransitions="_AX4Fpv_3Eeafl6WsllPgUg">
         <outgoingTransitions xmi:id="_yv_eMP_3Eeafl6WsllPgUg" specification="always" target="_miSLMP_3Eeafl6WsllPgUg"/>
       </vertices>
-      <vertices xsi:type="sgraph:State" xmi:id="_miSLMP_3Eeafl6WsllPgUg" specification="entry / redOn()" name="red LED on" incomingTransitions="_yv_eMP_3Eeafl6WsllPgUg _0em8IP_3Eeafl6WsllPgUg">
+      <vertices xsi:type="sgraph:State" xmi:id="_miSLMP_3Eeafl6WsllPgUg" specification="entry / redOn()" name="RedLEDOn" incomingTransitions="_yv_eMP_3Eeafl6WsllPgUg _0em8IP_3Eeafl6WsllPgUg">
         <outgoingTransitions xmi:id="_zndRsP_3Eeafl6WsllPgUg" specification="after 1 s" target="_sP4nMP_3Eeafl6WsllPgUg"/>
       </vertices>
-      <vertices xsi:type="sgraph:State" xmi:id="_sP4nMP_3Eeafl6WsllPgUg" specification="entry / redOff()" name="red LED off" incomingTransitions="_zndRsP_3Eeafl6WsllPgUg">
+      <vertices xsi:type="sgraph:State" xmi:id="_sP4nMP_3Eeafl6WsllPgUg" specification="entry / redOff()" name="RedLEDOff" incomingTransitions="_zndRsP_3Eeafl6WsllPgUg">
         <outgoingTransitions xmi:id="_0em8IP_3Eeafl6WsllPgUg" specification="after 1 s" target="_miSLMP_3Eeafl6WsllPgUg"/>
       </vertices>
     </regions>
