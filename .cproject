@@ -44,7 +44,7 @@
 								</option>
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1832908483" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.option.debugging.level.1683041674" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.pthread.1481546321" superClass="gnu.c.compiler.option.pthread" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.pthread.1481546321" name="Support for pthread (-pthread)" superClass="gnu.c.compiler.option.pthread" useByScannerDiscovery="false" value="false" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1245780857" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1872298139" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base">
@@ -63,7 +63,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="rkh/third-party/unitrazer|src/arch|rkh/source/trc/test|rkh/source/sma/test|rkh/source/sm/test|rkh/source/fwk/test|rkh/source/portable/ucos|rkh/source/portable/test|rkh/source/portable/s08|rkh/source/portable/cfv1|rkh/source/portable/arm-cortex|rkh/source/portable/80x86/win32_st|rkh/source/portable/80x86/win32_mt|rkh/third-party/utrazer|rkh/demo|rkh/template|rkh/tools|rkh/doc|rkh/demo/libbsp/platform/80x86/win|rkh/demo/libbsp/platform/cfv1|rkh/demo/libbsp/platform/s08|rkh/demo/libbsp/platform/arm-cortex|rkh/third-party/utrazer/test_runners|rkh/third-party/utrazer/*.*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry excluding="rkh/source/tmr/test|rkh/third-party/unitrazer|src/arch|rkh/source/trc/test|rkh/source/sma/test|rkh/source/sm/test|rkh/source/fwk/test|rkh/source/portable/ucos|rkh/source/portable/test|rkh/source/portable/s08|rkh/source/portable/cfv1|rkh/source/portable/arm-cortex|rkh/source/portable/80x86/win32_st|rkh/source/portable/80x86/win32_mt|rkh/third-party/utrazer|rkh/demo|rkh/template|rkh/tools|rkh/doc|rkh/demo/libbsp/platform/80x86/win|rkh/demo/libbsp/platform/cfv1|rkh/demo/libbsp/platform/s08|rkh/demo/libbsp/platform/arm-cortex|rkh/third-party/utrazer/test_runners|rkh/third-party/utrazer/*.*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="rkh/demo/libbsp/common"/>
 						<entry excluding="bsp_ahsm.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="rkh/demo/libbsp/platform/80x86/linux"/>
 					</sourceEntries>
@@ -110,7 +110,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="rkh/third-party/unitrazer|src/arch|rkh/source/trc/test|rkh/source/sma/test|rkh/source/sm/test|rkh/source/fwk/test|rkh/source/portable/ucos|rkh/source/portable/test|rkh/source/portable/s08|rkh/source/portable/cfv1|rkh/source/portable/arm-cortex|rkh/source/portable/80x86/win32_st|rkh/source/portable/80x86/win32_mt|rkh/third-party/utrazer|rkh/demo|rkh/template|rkh/tools|rkh/doc|rkh/demo/libbsp/platform/80x86/win|rkh/demo/libbsp/platform/cfv1|rkh/demo/libbsp/platform/s08|rkh/demo/libbsp/platform/arm-cortex|rkh/third-party/utrazer/test_runners" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="rkh/source/tmr/test|rkh/third-party/unitrazer|src/arch|rkh/source/trc/test|rkh/source/sma/test|rkh/source/sm/test|rkh/source/fwk/test|rkh/source/portable/ucos|rkh/source/portable/test|rkh/source/portable/s08|rkh/source/portable/cfv1|rkh/source/portable/arm-cortex|rkh/source/portable/80x86/win32_st|rkh/source/portable/80x86/win32_mt|rkh/third-party/utrazer|rkh/demo|rkh/template|rkh/tools|rkh/doc|rkh/demo/libbsp/platform/80x86/win|rkh/demo/libbsp/platform/cfv1|rkh/demo/libbsp/platform/s08|rkh/demo/libbsp/platform/arm-cortex|rkh/third-party/utrazer/test_runners" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="rkh/demo/libbsp/common"/>
 						<entry excluding="bsp_ahsm.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="rkh/demo/libbsp/platform/80x86/linux"/>
 					</sourceEntries>
