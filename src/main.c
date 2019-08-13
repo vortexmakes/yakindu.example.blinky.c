@@ -13,20 +13,12 @@
 /*
  *  LeFr  Leandro Francucci  francuccilea@gmail.com
  */
-int 
-main(int argc, char *argv[])
-{
-    printf("Hello world!\n");
-    return 0;
-}
 
-#if 0
 /* --------------------------------- Notes --------------------------------- */
 /* ----------------------------- Include files ----------------------------- */
 #include "rkh.h"
-#include "Example2.h"
+#include "Blinky.h"
 #include "bsp.h"
-
 
 /* ----------------------------- Local macros ------------------------------ */
 #define QSTO_SIZE           4
@@ -45,7 +37,7 @@ main(int argc, char *argv[])
 {
     bsp_init(argc, argv);
 
-    RKH_SMA_ACTIVATE(example2, qsto, QSTO_SIZE, 0, 0);
+    RKH_SMA_ACTIVATE(blinky, qsto, QSTO_SIZE, 0, 0);
     rkh_fwk_enter();
 
     RKH_TRC_CLOSE();
@@ -53,4 +45,3 @@ main(int argc, char *argv[])
 }
 
 /* ------------------------------ End of file ------------------------------ */
-#endif

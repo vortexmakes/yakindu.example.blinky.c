@@ -30,7 +30,8 @@ extern "C" {
 typedef enum Signals
 {
     evTimeOut0,
-    evTimeOut1
+    evTimeOut1,
+    TERMINATE
 } Signals;
 
 /* ------------------------------- Data types ------------------------------ */

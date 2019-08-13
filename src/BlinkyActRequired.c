@@ -25,25 +25,18 @@
 /* ---------------------------- Local functions ---------------------------- */
 /* ---------------------------- Global functions --------------------------- */
 void 
-simpleOp(void)
+init(void)
 {
 }
 
 void 
-opWithParams(rInt i, rbool_t b)
+redOn(void)
 {
 }
 
-rInt 
-opWithReturn()
+void 
+redOff(void)
 {
-    return 0;
-}
-
-rInt 
-opWithParamAndReturn(rInt i)
-{
-    return 0;
 }
 
 /* ------------------------------ End of file ------------------------------ */
