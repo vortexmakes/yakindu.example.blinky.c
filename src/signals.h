@@ -1,5 +1,5 @@
 /**
- *  \file       signal.h
+ *  \file       signals.h
  *  \brief      Signal specification.
  */
 
@@ -15,8 +15,8 @@
 
 /* --------------------------------- Notes --------------------------------- */
 /* --------------------------------- Module -------------------------------- */
-#ifndef __SIGNAL_H__
-#define __SIGNAL_H__
+#ifndef __SIGNALS_H__
+#define __SIGNALS_H__
 
 /* ----------------------------- Include files ----------------------------- */
 /* ---------------------- External C language linkage ---------------------- */
@@ -29,10 +29,8 @@ extern "C" {
 /* ................................ Signals ................................ */
 typedef enum Signals
 {
-	evA,
-	evB,
-	TERMINATE,		/* press the key escape on the keyboard */
-	EXAMPLE_NUM_EVENTS
+    evTimeOut0,
+    evTimeOut1
 } Signals;
 
 /* ------------------------------- Data types ------------------------------ */

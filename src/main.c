@@ -13,7 +13,14 @@
 /*
  *  LeFr  Leandro Francucci  francuccilea@gmail.com
  */
+int 
+main(int argc, char *argv[])
+{
+    printf("Hello world!\n");
+    return 0;
+}
 
+#if 0
 /* --------------------------------- Notes --------------------------------- */
 /* ----------------------------- Include files ----------------------------- */
 #include "rkh.h"
@@ -46,3 +53,4 @@ main(int argc, char *argv[])
 }
 
 /* ------------------------------ End of file ------------------------------ */
+#endif
