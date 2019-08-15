@@ -29,8 +29,8 @@ extern "C" {
 /* ................................ Signals ................................ */
 typedef enum Signals
 {
-    evTimeOut0,
-    evTimeOut1,
+    evTout0,
+    evTout1,
     TERMINATE
 } Signals;
 
