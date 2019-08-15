@@ -14,7 +14,9 @@
 
 /* --------------------------------- Notes --------------------------------- */
 /* ----------------------------- Include files ----------------------------- */
-#include "rkhtype.h"
+#include "rkhtrc_record.h"
+#include "signals.h"
+#include "Blinky.h"
 #include "bsp.h"
 
 /* ----------------------------- Local macros ------------------------------ */
@@ -28,6 +30,8 @@
 void 
 init(void)
 {
+    RKH_TR_FWK_SIG(evTout0);
+    RKH_TR_FWK_SIG(evTout1);
 }
 
 void 
